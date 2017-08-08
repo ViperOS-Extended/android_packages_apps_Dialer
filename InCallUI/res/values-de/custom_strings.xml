@@ -44,6 +44,7 @@
   <string name="call_state_dialing">Wählen</string>
   <string name="call_state_holding">Halten</string>
   <string name="call_state_active">Aktiv</string>
+  <string name="call_state_unknown">Unbekannt</string>
   <string name="call_state_disconnecting">Trennen</string>
   <string name="call_state_disconnected">Verbindung getrennt</string>
   <string name="too_many_recipients">Nicht mehr als 6 Personen können an einer 4G Telefonkonferenz teilnehmen.</string>

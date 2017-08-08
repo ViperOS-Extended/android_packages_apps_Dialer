@@ -18,12 +18,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call screen: call failure reason (call denied because call barring is ON on MT side ) -->
+  <string name="callFailed_incoming_cb_enabled">شخص تمام تماس های دریافتی را محدود کرده است.</string>
   <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+  <string name="callUnanswered_forwarded">تماس پاسخ داده نشد و انتقال یافت</string>
   <!-- In-call screen: "call type" indication for a forwarded call [CHAR LIMIT=30] -->
+  <string name="incall_call_type_label_forwarded">تماس منتقل شده</string>
   <!-- In-call screen: status label for a call in the "dialing" state that's waiting for the busy remote side -->
+  <string name="card_title_dialing_waiting">شماره گیری (انتظار\u2026)</string>
   <!-- In-call screen: status label for an outgoing call that's routed via a specific
          provider (e.g. MSIM) and is waiting for the busy remote side -->
+  <string name="calling_via_waiting_template">تماس از طریق <xliff:g id="provider_name">%s</xliff:g> (انتظار\u2026)</string>
   <!-- In-call screen: status label template for an active call that's routed via a specific
          provider (e.g. MSIM) -->
+  <string name="card_title_active_via_template"><xliff:g id="status" example="Call on hold">%1$s</xliff:g> (از طریق <xliff:g id="provider_name">%2$s</xliff:g>)</string>
   <!-- In-call screen: status label for a call that is held remotely  -->
+  <string name="card_title_waiting_call">انتظار تماس</string>
+  <string name="call_recording_failed_message">خطا در ضبط تماس</string>
+  <string name="call_recording_file_location">ضبط تماس تلفنی ذخیره شده به <xliff:g id="filename">%s</xliff:g></string>
+  <string name="onscreenCallRecordText">ضبط تماس</string>
+  <string name="onscreenStopCallRecordText">ضبط را متوقف کنید</string>
+  <string name="recording_time_text">در حال ضبط</string>
+  <string name="recording_warning_title">ضبط تماس فعال شود؟</string>
+  <string name="recording_warning_text">توجه: شما مسئول تطابق با هرگونه قوانین، مقررات و مقررات مربوط به استفاده از قابلیت ضبط تماس و استفاده یا توزیع این ضبط‌ها هستید.</string>
+  <string name="call_failed_due_to_validate_number">امکان برقراری تماس ویدیویی وجود ندارد، فرمت شماره درست نیست</string>
+  <string name="call_state_dialing">شماره گیری</string>
+  <string name="call_state_holding">نگه داشتن</string>
+  <string name="call_state_active">فعال</string>
+  <string name="call_state_unknown">ناشناخته</string>
+  <string name="call_state_disconnecting">قطع کردن</string>
+  <string name="call_state_disconnected">قطع شده</string>
+  <string name="too_many_recipients">بیش از ۶ نفر نمی توانند در یک کنفرانس 4G شرکت کنند.</string>
 </resources>

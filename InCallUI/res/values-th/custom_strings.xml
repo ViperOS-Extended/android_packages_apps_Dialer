@@ -18,12 +18,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call screen: call failure reason (call denied because call barring is ON on MT side ) -->
+  <string name="callFailed_incoming_cb_enabled">ระงับสายเรียกเข้าทั้งหมด</string>
   <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+  <string name="callUnanswered_forwarded">ไม่รับสายและโอนสาย</string>
   <!-- In-call screen: "call type" indication for a forwarded call [CHAR LIMIT=30] -->
+  <string name="incall_call_type_label_forwarded">การโอนสาย</string>
   <!-- In-call screen: status label for a call in the "dialing" state that's waiting for the busy remote side -->
+  <string name="card_title_dialing_waiting">กำลังโทรออก (waiting\u2026)</string>
   <!-- In-call screen: status label for an outgoing call that's routed via a specific
          provider (e.g. MSIM) and is waiting for the busy remote side -->
+  <string name="calling_via_waiting_template">โทรผ่านทาง<xliff:g id="provider_name">%s</xliff:g> (Waiting\u2026)</string>
   <!-- In-call screen: status label template for an active call that's routed via a specific
          provider (e.g. MSIM) -->
+  <string name="card_title_active_via_template"><xliff:g id="status" example="Call on hold">%1$s</xliff:g> (ผ่าน<xliff:g id="provider_name">%2$s</xliff:g>)</string>
   <!-- In-call screen: status label for a call that is held remotely  -->
+  <string name="card_title_waiting_call">กำลังรอสาย</string>
+  <string name="call_recording_failed_message">เกิดความล้มเหลวในการบัทึกการสนทนา</string>
+  <string name="call_recording_file_location">บันทึกการโทรที่ <xliff:g id="filename">%s</xliff:g></string>
+  <string name="onscreenCallRecordText">บันทึกเสียงการสนทนา</string>
+  <string name="onscreenStopCallRecordText">หยุดบันทึก</string>
+  <string name="recording_time_text">บันทึก...</string>
+  <string name="recording_warning_title">เปิดบันทึกการสนทนาหรือไม่</string>
+  <string name="recording_warning_text">หมายเหตุ: คุณมีหน้าที่ปฏิบัติตามกฎหมาย กฎระเบียบ หรือกฎที่ใช้กับการใช้โทรบันทึกฟังก์ชัน และการใช้ หรือแจกจ่ายบันทึกเหล่านั้น</string>
+  <string name="call_failed_due_to_validate_number">ไม่สามารถทำการสนทนาวิดีโอ รูปแบบตัวเลขไม่ถูกต้อง</string>
+  <string name="call_state_dialing">กำลังโทรออก</string>
+  <string name="call_state_holding">รอสาย</string>
+  <string name="call_state_active">ใช้งานอยู่</string>
+  <string name="call_state_unknown">ไม่ทราบ</string>
+  <string name="call_state_disconnecting">กำลังตัดการเชื่อมต่อ</string>
+  <string name="call_state_disconnected">ตัดการเชื่อมต่อแล้ว</string>
+  <string name="too_many_recipients">สามารถประชุมสายได้ไม่เกิน6คนผ่านระบบ 4G</string>
 </resources>
